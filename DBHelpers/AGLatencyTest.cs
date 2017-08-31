@@ -60,9 +60,9 @@ namespace DBHelpers
 
     public class DBInfo : IDBInfo
     {
-        public string PrimaryKey { get; set; }
+        public string PrimaryName { get; set; }
         public string PrimaryConnStr { get; set; }
-        public string ReplicaKey { get; set; }
+        public string ReplicaName { get; set; }
         public string ReplicaConnStr { get; set; }
         public string Query { get; set; }
         public bool InSync { get; set; }
@@ -72,9 +72,9 @@ namespace DBHelpers
 
     public interface IDBInfo
     {
-        string PrimaryKey { get; set; }
+        string PrimaryName { get; set; }
         string PrimaryConnStr { get; set; }
-        string ReplicaKey { get; set; }
+        string ReplicaName { get; set; }
         string ReplicaConnStr { get; set; }
         string Query { get; set; }
         bool InSync { get; set; }
