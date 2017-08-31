@@ -1,6 +1,4 @@
 # DBHelpers
-Utilities to monitor DB
-
 In limited access enterprise environments, it becomes tough to monitor status, metrics etc. The purpose of these utilities is to work with a simple read-only access and to figure out certain stats.
 
 # ConnectionTest.cs 
